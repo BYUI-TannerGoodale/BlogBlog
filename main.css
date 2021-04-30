@@ -1,0 +1,258 @@
+/* Main style sheet for website, global application */
+
+/* Custon fast class rules */
+.block{
+    display: block;
+}
+
+.m1{
+    margin: 1em;
+}
+.m2{
+    margin: 2em;
+}
+.m3{
+    margin: 3em;
+}
+
+.mt1{
+    margin-top: 1em;
+}
+.mt2{
+    margin-top: 2em;
+}
+.mt3{
+    margin-top: 3em;
+}
+
+.mr1{
+    margin-right: 1em;
+}
+.mr2{
+    margin-right: 2em;
+}
+.mr3{
+    margin-right: 3em;
+}
+
+.mb1{
+    margin-bottom: 1em;
+}
+.mb2{
+    margin-bottom: 2em;
+}
+.mb3{
+    margin-bottom: 3em;
+}
+
+.ml1{
+    margin-left: 1em;
+}
+.ml2{
+    margin-left: 2em;
+}
+.ml3{
+    margin-left: 3em;
+}
+
+.flex{
+    display: flex;
+}
+
+.padd{
+    margin-top: 4.4px;
+    margin-bottom: 4.4px;
+}
+
+/* body settings and styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #3f3e3e;
+    font-weight: lighter;
+}
+
+h3{
+    margin-top: 0;
+}
+
+/* Header styles */
+header{
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 0px 1px 2px #888888;
+    margin-bottom: 2em;
+}
+
+#face{
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 0px 1px 2px #888888;
+    width: 6em;
+    margin: auto;
+}
+
+#th1{
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 0.7em;
+    font-weight: bold;
+}
+
+#th2{
+    margin-top: 0;
+    margin-left: 0.7em;
+    font-weight: 400;
+}
+
+/* Sticky footer styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+  
+body {
+    /* Margin bottom by footer height */
+    margin: 0;
+    margin-bottom: 60px;
+}
+  
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+/*
+/ Area used to define custom classes /
+*/
+
+/* container custom class rules */
+.container{
+    padding-left: 2em;
+}
+
+/*.bloglink{
+    
+}*/
+
+.blogheader{
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 0px 1px 2px #888888;
+    max-width: 80%;
+    margin: auto;
+}
+
+.blogpreview{
+    color: #3f3e3e;
+    margin-bottom: 0;
+}
+
+/* Form control classes */
+.form-control {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+  
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #80bdff;
+}
+
+.flex-btn{
+    display: block;
+    margin-left: 1em;
+    height: 70%;
+    position: relative;
+    top: 1.1751em;
+}
+
+/* Element optional class modifiers */
+
+.small{
+    font-size: smaller;
+    font-style: italic;
+}
+
+/*
+/ Area used to modify elements at core /
+*/
+
+/* list custom rules */
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+li{
+    max-width: 70%;
+}
+
+#posts{
+    padding-right: 5px;
+    display: inline-block;
+}
+
+#about{
+    padding-left: 5px;
+    display: inline-block;
+}
+
+a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.active{
+    text-decoration: underline;
+}
