@@ -153,9 +153,12 @@ footer {
     padding-left: 2em;
 }
 
-/*.bloglink{
-    
-}*/
+.bh3{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
 
 .blogheader{
     border: 1px solid white;
